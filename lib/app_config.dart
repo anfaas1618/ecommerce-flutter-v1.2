@@ -3,14 +3,14 @@ import 'package:flutter/material.dart';
 var this_year = DateTime.now().year.toString();
 
 class AppConfig {
-  static String copyright_text = "@ ActiveItZone " + this_year; //this shows in the splash screen
-  static String app_name = "Active eCommerce"; //this shows in the splash screen
+  static String copyright_text = "@ ecom " + this_year; //this shows in the splash screen
+  static String app_name = " eCommerce"; //this shows in the splash screen
 
   //configure this
   static const bool HTTPS = false;
 
   //configure this
-  static const DOMAIN_PATH = "192.168.0.106/ecommerce_demo";
+  static const DOMAIN_PATH = "harry-potter.stackstaging.com/testing";
   //static const DOMAIN_PATH = "demo.activeitzone.com/ecommerce_flutter_demo";
   //static const DOMAIN_PATH = "adbuild.ae";
 
